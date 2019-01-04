@@ -32,12 +32,12 @@ When you send people sensitive info like passwords and private links via email o
     $ mkdir ~/sources
 
 
-## Install Ruby 1.9
+## Install Ruby 2.3
 
     $ cd ~/sources
-    $ curl -O https://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p362.tar.bz2
-    $ tar xjf ruby-1.9.3-p362.tar.bz2
-    $ cd ruby-1.9.3-p362
+    $ curl -O https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.bz2
+    $ tar xjf ruby-2.3.8.tar.bz2
+    $ cd ruby-2.3.8
     $ ./configure && make
     $ sudo make install
     $ sudo gem install bundler
