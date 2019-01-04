@@ -20,7 +20,7 @@ When you send people sensitive info like passwords and private links via email o
 
 ## Install Dependencies
 
-    # DEBIAN
+    # DEBIAN (It's best to use apt to install the dependencies)
     $ sudo apt-get update
     $ sudo apt-get install build-essential
     $ sudo apt-get install ntp libyaml-dev libevent-dev zlib1g zlib1g-dev openssl libssl-dev libxml2 libreadline-gplv2-dev
@@ -32,25 +32,15 @@ When you send people sensitive info like passwords and private links via email o
     $ mkdir ~/sources
 
 
-## Install Ruby 2.3
+## Install Ruby
 
-    $ cd ~/sources
-    $ curl -O https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.bz2
-    $ tar xjf ruby-2.3.8.tar.bz2
-    $ cd ruby-2.3.8
-    $ ./configure && make
-    $ sudo make install
-    $ sudo gem install bundler
+    $ sudo apt install ruby
+    $ sudo apt install ruby-bcrypt
 
 
-## Install Redis 3.2
+## Install Redis 
 
-    $ cd ~/sources
-    $ curl -O https://github.com/antirez/redis/archive/3.2.9.tar.gz
-    $ tar zxf redis-3.2.9.tar.gz
-    $ cd redis-3.2.9
-    $ make
-    $ sudo make install
+    $ sudo apt install redis-server
 
 
 ## Install One-Time Secret
