@@ -15,7 +15,7 @@ When you send people sensitive info like passwords and private links via email o
 ## Dependencies
 
 * Any recent Linux (we use Debian, Ubuntu, and CentOS)
-* Ruby 1.9.1+
+* Ruby 2.3+
 * Redis 2.6+
 
 ## Install Dependencies
